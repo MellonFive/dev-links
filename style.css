@@ -51,12 +51,17 @@ body * {
 #profile img {
   width: 112px;
   /* margin: auto; Porque não funciona? Elementos inline não funciona largura e altura. */
+  margin-bottom: 10px;
 }
 
-#profile p {
+#profile .subtitle {
   font-weight: 400;
   line-height: 24px;
-  margin-top: 8px;
+  margin: 10px 0;
+}
+
+#profile .studying {
+  margin: 15px 0;
 }
 
 /* switch */
