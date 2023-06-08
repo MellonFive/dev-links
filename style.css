@@ -75,7 +75,7 @@ body * {
   position: relative;
   width: 64px;
 
-  margin: 4px auto;
+  margin: auto;
 }
 
 #switch button {
@@ -109,7 +109,6 @@ body * {
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
 
@@ -154,8 +153,7 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-
-  padding: 15px 0;
+  gap: 3rem;
 
   font-size: 24px;
 }
@@ -174,11 +172,11 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
-footer {
+/* footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
-}
+} */
 
 /* media queries */
 @media (min-width: 700px) {
