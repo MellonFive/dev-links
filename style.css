@@ -149,6 +149,11 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
+ul li a [name="person-outline"], ul li a [name="laptop-outline"], ul li a [name="logo-whatsapp"] {
+  margin-left: 1.5rem;
+  font-size: 24px;
+}
+
 /* social-Links */
 #social-links {
   display: flex;
