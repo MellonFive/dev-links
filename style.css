@@ -158,7 +158,7 @@ ul li a [name="person-outline"], ul li a [name="laptop-outline"], ul li a [name=
 #social-links {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
 
   font-size: 24px;
 }
